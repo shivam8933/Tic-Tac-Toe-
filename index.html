@@ -1,1 +1,32 @@
-hii
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trendy Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Trendy Tic Tac Toe</h1>
+        <div class="player-form">
+            <label for="player1">Player 1 Name:</label>
+            <input type="text" id="player1" placeholder="Enter your name">
+            <label for="player2">Player 2 Name:</label>
+            <input type="text" id="player2" placeholder="Enter your name">
+            <label for="symbol">Choose your symbol:</label>
+            <select id="symbol">
+                <option value="X">X</option>
+                <option value="O">O</option>
+            </select>
+            <button id="start-btn">Start Game</button>
+        </div>
+        <div class="game-board">
+            <!-- Game board will be generated dynamically using JavaScript -->
+        </div>
+        <div id="msg" class="message hide"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
